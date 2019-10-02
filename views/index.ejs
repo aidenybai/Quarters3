@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densityDpi=device-dpi"
+    />
+
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//use.fontawesome.com/releases/v5.3.1/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.4/css/materialize.min.css"
+    />
+
+    <title>Quarter3</title>
+  </head>
+
+  <body>
+    <div class="navbar-fixed">
+      <nav>
+        <div class="nav-wrapper">
+          <a href="#" class="brand-logo center">
+            QUARTERS<k> ROUND 3
+          </a>
+        </div>
+      </nav>
+    </div>
+    <div class="container">
+      <div id="add-panel" class="panel">
+        <div class="page-title-block">
+          <div class="col s12 m12">
+            <div class="row center">
+              <div class="input-field col s12 m12">
+                <input id="name" type="text" />
+                <label for="name">Name</label>
+              </div>
+            </div>
+            <a class="waves-effect waves-light btn" id="activate-pin-btn" onclick="add()">
+              Create
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer id="footer" class="page-footer">
+      <div class="container">
+        <div class="row">
+          <h4 class="col s12 m12 center">LEADERBOARD</h4>
+          <ul
+            class="col s12 m12 collapsible popout"
+            data-collapsible="accordion"
+            id="tabs"
+          ></ul>
+        </div>
+      </div>
+      <link
+        href="https://fonts.googleapis.com/css?family=Varela+Round"
+        rel="stylesheet"
+      />
+      <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/2.0.1/velocity.min.js"></script>
+
+      <script src="./js/index.js" defer></script>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,271 @@
+@keyframes bgcolor {
+  0% {
+    background-color: #45a3e5;
+  }
+
+  30% {
+    background-color: #66bf39;
+  }
+
+  60% {
+    background-color: #eb670f;
+  }
+
+  90% {
+    background-color: #f35;
+  }
+
+  100% {
+    background-color: #864cbf;
+  }
+}
+
+* {
+  font-family: "Varela Round", sans-serif !important;
+  color: white;
+}
+
+html,
+body {
+  height: 100%;
+  background-color: #212121;
+}
+
+nav {
+  background-color: #000 !important;
+  padding: 0 20px;
+}
+
+li.collection-item {
+  background-color: #212121 !important;
+}
+
+h1 {
+  font-size: calc(32px + 2.5vw);
+  color: #8B0000;
+}
+
+h2 {
+  margin: 0;
+  color: #fff;
+  font-size: 1.64rem;
+}
+
+textarea.materialize-textarea:focus {
+  border-bottom: 1px solid #3949ab !important;
+  box-shadow: 0 1px 0 0 #3949ab !important;
+  color: #fff !important;
+}
+
+a {
+  cursor: pointer;
+  color: #ee6e73;
+}
+
+i {
+  font-family: "Material Icons", sans-serif !important;
+}
+
+k {
+  color: #8B0000;
+}
+
+.btn,
+.btn-small {
+  background-color: #8B0000 !important;
+}
+
+.btn:hover,
+.btn-small:hover {
+  background-color: #8B0000 !important;
+  opacity: 0.9;
+}
+
+.panel {
+  padding: 20px;
+  margin: 20px;
+}
+
+#function-box h4 {
+  margin-top: 20px;
+}
+
+#message-container {
+  position: fixed;
+  z-index: 200;
+  bottom: 0;
+  display: absolute;
+  width: 100%;
+  padding: 20px;
+  pointer-events: none;
+}
+
+#message-container .card {
+  width: 100%;
+}
+
+#changelog-list p {
+  margin: 0;
+}
+
+.no-margin {
+  margin: 0 !important;
+  margin-bottom: 0 !important;
+  margin-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.twofactorcard {
+  border-radius: 3px;
+  box-shadow: inset 0 -3px rgba(0, 0, 0, 0.1);
+  border: 0;
+  height: 15vh;
+  margin-bottom: 2vh;
+}
+
+.twofactorcard[disabled] {
+  opacity: 0.3;
+}
+
+.card-0:hover {
+  background-color: #e21b3c;
+  opacity: 0.9;
+}
+
+.card-1:hover {
+  background-color: #1368ce;
+  opacity: 0.9;
+}
+
+.card-2:hover {
+  background-color: #d89e00;
+  opacity: 0.9;
+}
+
+.card-3:hover {
+  background-color: #298f0d;
+  opacity: 0.9;
+}
+
+.page-title-block {
+  text-align: center;
+}
+
+.page-title {
+  margin: 8vmin 0;
+}
+
+.page-title h1,
+h5 {
+  margin: 0;
+}
+
+.collapsible-header {
+  background-color: #2d2d2d !important;
+  border-bottom: 1px solid #292929 !important;
+}
+
+.collapsible-body {
+  border-bottom: 0px solid #292929 !important;
+}
+
+.page-footer {
+  background-color: #252525 !important;
+  margin-top: 30px;
+}
+
+.page-footer .footer-copyright {
+  color: #282828 !important;
+  background-color: #282828 !important;
+}
+
+.control-panel-item {
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.control-panel-item .button-item {
+  margin: 0;
+}
+
+.input-field label {
+  color: #fff !important;
+}
+
+.input-field {
+  color: #fff !important;
+}
+
+.input-field input:focus + label {
+  color: #fff !important;
+}
+
+input:focus {
+  border-bottom: 1px solid #ee6e73 !important;
+  box-shadow: 0 1px 0 0 #ee6e73 !important;
+}
+
+input.valid {
+  border-bottom: 1px solid #ee6e73 !important;
+  box-shadow: 0 1px 0 0 #ee6e73 !important;
+}
+
+input.invalid {
+  border-bottom: 1px solid #ee6e73 !important;
+  box-shadow: 0 1px 0 0 #ee6e73 !important;
+}
+
+.input-field .prefix.active {
+  color: #ee6e73 !important;
+}
+
+.overlay {
+  position: fixed;
+  z-index: 200;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.845);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.overlay > .close {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+}
+
+.modal-content p,
+.modal-content h4 {
+  color: #000;
+}
+
+.hidden {
+  display: none;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: rgba(160, 160, 160, 0.8);
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+}
+::-webkit-scrollbar-thumb:window-inactive {
+  background: rgba(160, 160, 160, 0.8);
+}
